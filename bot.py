@@ -2,7 +2,8 @@ import os
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-# Токен из переменной окружения (Railway)
+print("ENV CHECK:", "TELEGRAM_BOT_TOKEN" in os.environ, "BOT_TOKEN" in os.environ)
+
 TOKEN = os.getenv("TELEGRAM_BOT_TOKEN") or os.getenv("BOT_TOKEN")
 bot = telebot.TeleBot(TOKEN)
 
