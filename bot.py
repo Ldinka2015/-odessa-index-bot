@@ -554,3 +554,4 @@ def handle(call):
     bot.edit_message_text(text, call.message.chat.id, call.message.message_id, reply_markup=back_markup)
 
 bot.polling()
+# redeploy
