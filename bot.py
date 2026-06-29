@@ -4,7 +4,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 print("ENV CHECK:", "TELEGRAM_BOT_TOKEN" in os.environ, "BOT_TOKEN" in os.environ)
 
-TOKEN = "ваш_новый_токен_от_BotFather"
+TOKEN = "8944740346:AAGu8xlVJAIKgw04s22zlwcYhJAMDSIXRO0"
 bot = telebot.TeleBot(TOKEN)
 
 DEVELOPERS = {
